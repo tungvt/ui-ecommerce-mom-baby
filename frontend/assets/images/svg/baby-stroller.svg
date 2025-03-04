@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CCCCCC;}
+	.st1{fill:none;stroke:#CCCCCC;stroke-width:1.0482;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#E32429;}
+</style>
+<g>
+	<ellipse id="XMLID_40_" class="st0" cx="5.36" cy="25.67" rx="4.36" ry="4.36"/>
+	<path id="XMLID_48_" class="st0" d="M16.04,10.56c0-0.99-0.8-1.8-1.8-1.8c-0.99,0-1.8,0.8-1.8,1.8c0,0.99,0.8,1.8,1.8,1.8
+		C15.23,12.35,16.04,11.55,16.04,10.56z"/>
+	<path id="XMLID_41_" class="st0" d="M24.76,25.67c0-2.41-1.95-4.36-4.36-4.36s-4.36,1.95-4.36,4.36s1.95,4.36,4.36,4.36
+		S24.76,28.08,24.76,25.67z"/>
+</g>
+<g>
+	<path id="XMLID_37_" class="st1" d="M13.27,21.06L13.27,21.06c-5.26,0-9.53-4.27-9.53-9.53v-0.97H22.8v0.97
+		C22.8,16.8,18.53,21.06,13.27,21.06z"/>
+	<path id="XMLID_39_" class="st1" d="M13.27,21.03c-5.26,0-9.53-4.27-9.53-9.53l0,0c0-5.26,4.27-9.53,9.53-9.53h0.97v8.27"/>
+	<path id="XMLID_42_" class="st1" d="M31,7.34c0,0-5.9-3.13-8.2,3.41"/>
+	<line id="XMLID_43_" class="st1" x1="17.93" y1="19.84" x2="5.36" y2="25.67"/>
+	<line id="XMLID_44_" class="st1" x1="8.57" y1="19.84" x2="21.14" y2="25.67"/>
+	<line id="XMLID_45_" class="st1" x1="14.24" y1="10.56" x2="10.22" y2="2.57"/>
+	<line id="XMLID_47_" class="st1" x1="14.24" y1="10.56" x2="7.11" y2="4.22"/>
+	<line id="XMLID_46_" class="st1" x1="14.24" y1="10.56" x2="5.01" y2="7.32"/>
+</g>
+<g>
+	<circle id="XMLID_49_" class="st2" cx="5.36" cy="25.67" r="2.67"/>
+	<path id="XMLID_53_" class="st2" d="M23.07,25.67c0,1.47-1.19,2.67-2.67,2.67c-1.47,0-2.67-1.19-2.67-2.67
+		c0-1.47,1.19-2.67,2.67-2.67C21.87,23,23.07,24.2,23.07,25.67z"/>
+</g>
+</svg>
