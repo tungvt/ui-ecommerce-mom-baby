@@ -4,10 +4,10 @@
 	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#F53E43;stroke-width:0.882;stroke-linecap:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#CCCCCC;stroke-width:1.323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#CCCCCC;stroke-width:1.323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#CCCCCC;stroke-width:0.882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#ff9fd3;stroke-width:0.882;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#828282;stroke-width:1.323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#828282;stroke-width:1.323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#828282;stroke-width:0.882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <path id="XMLID_22_" class="st0" d="M11.46,29.75l12.17-14.19l-13.45-4.4L1.53,21.24c-0.8,0.93-0.69,2.33,0.24,3.13l6.56,5.62
 	C9.26,30.79,10.66,30.69,11.46,29.75z"/>
