@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+	<title>Dashboard</title>
+
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+	<link rel="stylesheet" type="text/css" href="assets/base/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/base/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style-profile-login.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=vietnamese" rel="stylesheet">
+
+</head>
+
+<body class="login-page">
+
+	<div class="login-box">
+		<div class="login-box-body">
+			<div class="box-left">
+
+				<div class="nav-tabs-custom">
+					<ul class="nav nav-tabs">
+						<li>
+							<a href="#tab_1" data-toggle="tab" aria-expanded="true">Sign In</a>
+						</li>
+						<li class="active">
+							<a href="#tab_2" data-toggle="tab" aria-expanded="true">Sign Up</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<!-- BEGIN TAB BASIC INFO -->
+						<div class="tab-pane" id="tab_1">
+
+							<form action="#">
+								<div class="form-group">
+									<label for="txtUsername">Email/Username/Phone</label>
+									<input type="text" class="form-control no-border" id="txtUsername"
+										placeholder="Email/Username/Phone">
+								</div>
+								<div class="form-group">
+									<label for="txtPass">Password</label>
+									<div class="input-group">
+										<input type="password" class="form-control no-border-right" id="txtPass"
+											placeholder="Password">
+										<span class="input-group-addon eye"><img class="icons-svg"
+												src="assets/images/svg/eye.svg"></span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<a href="profile-forgotpass.html" class="pass-forgot pull-right">Forgot
+											Password</a>
+									</div>
+									<div class="col-xs-12">
+										<a href="admin-login-error.html" class="btn btn-block btn-danger">Sign
+											In</a>
+									</div>
+								</div>
+							</form>
+
+							<div class="social-auth-links text-center">
+								<p>Or sign in with</p>
+								<ul>
+									<li><a href="admin-login-sms.html"><img src="assets/images/svg/btn-sms.svg"></a>
+									</li>
+									<li><a href="#"><img src="assets/images/svg/btn-fb.svg"></a></li>
+									<li><a href="#"><img src="assets/images/svg/btn-gplus.svg"></a></li>
+									<li><a href="#"><img src="assets/images/svg/btn-zalo.svg"></a></li>
+								</ul>
+							</div>
+
+						</div>
+						<!-- /END TAB BASIC INFO -->
+
+						<!-- BEGIN TAB SIGN UP -->
+						<div class="tab-pane active" id="tab_2">
+
+							<form action="#">
+								<div class="form-group">
+									<label for="txtPhone">Số điện thoại</label>
+									<div class="input-group">
+										<input type="text" class="form-control" id="txtPhone"
+											placeholder="Nhập số điện thoại">
+										<span class="input-group-btn">
+											<button class="btn btn-pink">Gửi Mã</button>
+										</span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="txtOTP">Mã OTP</label>
+									<input type="text" class="form-control" id="txtOTP" placeholder="Mã OTP">
+								</div>
+								<div class="form-group">
+									<label for="txtUsername">Email</label>
+									<input type="text" class="form-control no-border" id="txtUsername"
+										placeholder="Email/Username/Phone">
+								</div>
+								<div class="form-group">
+									<label for="txtNewPass">Mật khẩu</label>
+									<div class="input-group">
+										<input type="password" class="form-control no-border-right" id="txtNewPass"
+											placeholder="Mật khẩu">
+										<span class="input-group-addon eye"><img class="icons-svg"
+												src="assets/images/svg/eye.svg"></span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="txtNewPassRepeat">Nhập lại mật khẩu</label>
+									<div class="input-group">
+										<input type="password" class="form-control no-border-right"
+											id="txtNewPassRepeat" placeholder="Nhập lại mật khẩu">
+										<span class="input-group-addon eye"><img class="icons-svg"
+												src="assets/images/svg/eye.svg"></span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="txtOTP">Security Check</label>
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" class="form-control" id="txtOTP"
+												placeholder="Text in the box">
+										</div>
+										<div class="col-md-6">
+											<div class="secure-code">
+												<img src="assets/images/secure-code.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-xs-12">
+										<a href="#" class="btn btn-block btn-danger" data-toggle="modal"
+											data-target="#modal-successSignup">Đăng ký</a>
+									</div>
+
+									<div class="col-xs-12">
+										<p class="agree-msg">Bằng việc tạo tài khoản, bạn đồng ý với <a>Free
+												Membership Agreement and Privacy Policy</a></p>
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- /END TAB SIGN UP -->
+					</div>
+				</div>
+
+			</div>
+			<!-- /END BOX LEFT -->
+
+			<div class="box-right">
+				<img src="assets/images/loginbg-mom-baby.png">
+				<div class="content">
+					<h1>Đăng ký</h1>
+					<p>Nhập thông tin cá nhân...</p>
+				</div>
+			</div>
+			<!-- /END BOX RIGHT -->
+
+		</div>
+	</div>
+
+	<!-- BEGIN MODAL CONFIRM -->
+	<div class="modal fade change-pass-success" id="modal-successSignup" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="assets/images/svg/success.svg">
+					<p>Đăng ký thành công.</p>
+					<a href="#" class="btn btn-danger">Đăng nhập ngay</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /END MODAL CONFIRM -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

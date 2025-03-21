@@ -1,0 +1,379 @@
+/* LOGIN PAGE */
+.text-center {
+	text-align: center;
+}
+
+.login-page {
+	background: #E0E0E0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.login-box {
+	width: 920px;
+	margin: 7% auto;
+	position: relative;
+}
+
+.login-box-body {
+	background: #FFFFFF;
+	border-radius: 10px;
+	display: flex;
+	overflow: hidden;
+}
+
+.box-left {
+	width: 480px;
+	position: relative;
+	display: inline-block;
+	padding: 50px;
+}
+
+.box-left .social-auth-links {
+	padding-top: 25px;
+}
+
+.box-left .social-auth-links p {
+	color: #BDBDBD;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.box-left .social-auth-links ul {
+	list-style: none;
+	display: table;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.box-left .social-auth-links ul li {
+	display: inline-block;
+	padding: 0 18px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.form-group label {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #4F4F4F;
+}
+
+.form-group .form-control {
+	box-shadow: none;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	padding: 12px 15px;
+	border-radius: 6px;
+	border-color: #E0E0E0;
+	height: auto;
+}
+
+.input-group-addon {
+	background-color: transparent;
+	border-color: #E0E0E0;
+}
+
+.input-group-addon.eye:hover {
+	cursor: pointer;
+}
+
+.secure-code {
+	border: 1px solid #E0E0E0;
+	padding: 2px;
+	border-radius: 6px;
+}
+
+a.pass-forgot {
+	color: #219653;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.btn {
+	font-size: 16px;
+	line-height: 26px;
+	color: #F9FBFC;
+	padding: 10px 12px;
+}
+
+.btn-danger {
+	background: linear-gradient(90deg, #f01271 0%, #ff63b4 100%);
+	border: none;
+}
+
+.btn-pink {
+	background: #f01271;
+	border: none;
+}
+
+.no-border-right {
+	border-right: none;
+}
+
+.form-group.error .form-control,
+.form-group.error .input-group-addon {
+	border-color: #E02E24;
+}
+
+.error-icon {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.error-msg {
+	color: #E02E24 !important;
+	font-size: 13px;
+}
+
+.box-right {
+	width: 440px;
+	position: relative;
+	display: inline-block;
+	background: #f01271
+}
+
+.box-right .content {
+	position: absolute;
+	bottom: 80px;
+	padding: 0 50px;
+}
+
+.box-right .content h1 {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 41px;
+	color: #F2F2F2;
+	margin: 0 0 20px;
+}
+
+.box-right .content p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #F2F2F2;
+}
+
+.nav-tabs-custom {
+	margin-bottom: 20px;
+	background: #fff;
+	border-radius: 3px
+}
+
+.nav-tabs-custom>.nav-tabs {
+	margin: 0;
+	border-bottom-color: #f4f4f4;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px
+}
+
+.nav-tabs-custom>.nav-tabs>li {
+	border-bottom: 3px solid transparent;
+	margin-bottom: -2px;
+	margin-right: 5px
+}
+
+.nav-tabs-custom>.nav-tabs>li.disabled>a {
+	color: #777
+}
+
+.nav-tabs-custom>.nav-tabs>li>a {
+	color: #444;
+	border-radius: 0;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a.text-muted {
+	color: #999
+}
+
+.nav-tabs-custom>.nav-tabs>li>a,
+.nav-tabs-custom>.nav-tabs>li>a:hover {
+	background: transparent;
+	margin: 0
+}
+
+.nav-tabs-custom>.nav-tabs>li>a:hover {
+	color: #999
+}
+
+.nav-tabs-custom>.nav-tabs>li:not(.active)>a:hover,
+.nav-tabs-custom>.nav-tabs>li:not(.active)>a:focus,
+.nav-tabs-custom>.nav-tabs>li:not(.active)>a:active {
+	border-color: transparent
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+	border-bottom-color: #E02E24
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a,
+.nav-tabs-custom>.nav-tabs>li.active:hover>a {
+	background-color: #fff;
+	color: #E02E24
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a {
+	border: none
+}
+
+.nav-tabs-custom>.nav-tabs>li:first-of-type {
+	margin-left: 0
+}
+
+.nav-tabs-custom>.nav-tabs>li:first-of-type.active>a {
+	border-left-color: transparent
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right {
+	float: none !important
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right>li {
+	float: right
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type {
+	margin-right: 0
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type>a {
+	border-left-width: 1px
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type.active>a {
+	border-left-color: #f4f4f4;
+	border-right-color: transparent
+}
+
+.nav-tabs-custom>.nav-tabs>li.header {
+	line-height: 35px;
+	padding: 0 10px;
+	font-size: 20px;
+	color: #444
+}
+
+.nav-tabs-custom>.nav-tabs>li.header>.fa,
+.nav-tabs-custom>.nav-tabs>li.header>.glyphicon,
+.nav-tabs-custom>.nav-tabs>li.header>.ion {
+	margin-right: 5px
+}
+
+.nav-tabs-custom>.tab-content {
+	background: #fff;
+	padding: 20px 0 0;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px
+}
+
+.nav-tabs-custom>.tab-content p {
+	font-size: 13px;
+	margin-bottom: 10px
+}
+
+.nav-tabs-custom>.tab-content p span {
+	font-size: 14px
+}
+
+.agree-msg {
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #BDBDBD;
+	margin: 10px 0 0;
+}
+
+.agree-msg a {
+	color: #27AE60;
+}
+
+/* SUCCESS BOX */
+.modal.change-pass-success {
+	background-color: #4F4F4F;
+}
+
+.modal.change-pass-success .modal-dialog {
+	width: 420px;
+	margin: 10% auto;
+}
+
+.modal.change-pass-success .modal-dialog .modal-body {
+	padding: 32px 38px;
+	text-align: center;
+}
+
+.modal.change-pass-success .modal-dialog .modal-body img {
+	margin-bottom: 32px;
+}
+
+.modal.change-pass-success .modal-dialog .modal-body p {
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+	color: #333333;
+	margin-bottom: 24px;
+}
+
+.modal.change-pass-success .modal-dialog .modal-body .btn {
+	width: 100%;
+}
+
+.forgot-box {
+	width: 380px;
+	text-align: left;
+	margin: 10% auto;
+	background-color: #FFFFFF;
+	padding: 25px;
+	border-radius: 6px;
+}
+
+.forgot-box h5 {
+	font-size: 18px;
+	color: #333333;
+	font-weight: 500;
+}
+
+.forgot-box p {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #828282;
+}
+
+.forgot-box p span {
+	color: #333333;
+	font-weight: 500;
+}
+
+.forgot-box .btn {
+	width: 100%;
+}
+
+
+@media (max-width: 768px) {
+	.login-box {
+		width: 400px;
+		margin: 20% auto;
+	}
+
+	.box-left {
+		padding: 20px;
+	}
+
+	.box-right {
+		display: none;
+	}
+}
