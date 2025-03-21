@@ -92,7 +92,7 @@
 }
 
 a.pass-forgot {
-	color: #219653;
+	color: #f01271;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 20px;
@@ -216,13 +216,13 @@ a.pass-forgot {
 }
 
 .nav-tabs-custom>.nav-tabs>li.active {
-	border-bottom-color: #E02E24
+	border-bottom-color: #f01271
 }
 
 .nav-tabs-custom>.nav-tabs>li.active>a,
 .nav-tabs-custom>.nav-tabs>li.active:hover>a {
 	background-color: #fff;
-	color: #E02E24
+	color: #f01271
 }
 
 .nav-tabs-custom>.nav-tabs>li.active>a {
@@ -296,7 +296,7 @@ a.pass-forgot {
 }
 
 .agree-msg a {
-	color: #27AE60;
+	color: #f01271;
 }
 
 /* SUCCESS BOX */
